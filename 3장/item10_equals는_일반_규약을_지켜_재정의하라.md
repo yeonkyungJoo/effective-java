@@ -39,3 +39,13 @@ x.equals(z) == true
 ```
 
 - 구체 클래스를 확장해 새로운 값을 추가하면서 equals 규약을 만족시킬 방법은 존재하지 않는다. 이는 상속의 단점 중 하나가 될 수 있다.
+
+###### 일관성(consistency)
+
+- x.equals(y)를 반복해서 호출하면 항상 true를 반환하거나 항상 false를 반환한다.
+
+###### null-아님
+
+```java
+x.equals(null) == false
+```
